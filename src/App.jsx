@@ -53,7 +53,7 @@ const App = () => {
 
   return (
     <div
-      className={`w-[100%]  border-2  ${
+      className={`w-[100%] border-1  ${
         mode ? "bg-cyan-950" : "bg-amber-50 max-md: w-100"
       }`}
     >
