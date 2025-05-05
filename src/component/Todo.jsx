@@ -14,7 +14,7 @@ const Todo = ({ val, onDelete }) => {
             
             <RiDeleteBin5Line
               onClick={() => onDelete(val)}
-              className='text-3xl border-2 drop-shadow-xs text-amber-300 hover:text-cyan-950  max-sm:h-5 border-none'
+              className='text-3xl border-2 drop-shadow-xs text-amber-300 hover:text-cyan-950  max-sm:h-5 border-none max:md'
             />
           </div>
         </div>

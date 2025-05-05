@@ -54,7 +54,7 @@ const App = () => {
   return (
     <div
       className={`w-[50%]  ml-[25%] border-2  ${
-        mode ? "bg-cyan-950" : "bg-amber-50"
+        mode ? "bg-cyan-950" : "bg-amber-50 max-md: w-100"
       }`}
     >
       <div className="flex items-center justify-end p-4 ">
@@ -75,8 +75,8 @@ const App = () => {
           </div>
         </div>
       </div>
-      <h1 className="w-full h-20 bg-amber-400 text-6xl font-black flex justify-center items-center">
-        <p className={`animate-bounce max-sm:text-xl ${mode? "text-indigo-700":"text-black"}`}>To-do List</p>
+      <h1 className="w-full h-20 bg-amber-400 text-6xl font-black flex justify-center items-center ">
+        <p className={`animate-bounce max-sm:text-xl max-md:text-2xl ${mode? "text-indigo-700":"text-black"}`}>To-do List</p>
       </h1>
 
       <h1
