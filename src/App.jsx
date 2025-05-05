@@ -53,7 +53,7 @@ const App = () => {
 
   return (
     <div
-      className={`w-[100%] border-1  ${
+      className={`w-[100%] border-1 h-[100vh]  ${
         mode ? "bg-cyan-950" : "bg-amber-50 max-md: w-100"
       }`}
     >
@@ -104,7 +104,7 @@ const App = () => {
           Add+
         </button>
       </form>
-      <div className="  h-[50vh] overflow-y-scroll overflow-x-none">
+      <div className="  h-[63vh] overflow-y-scroll overflow-x-none">
         {/* for scrolling */}
         {task.map((curTask, index) => {
           return (
